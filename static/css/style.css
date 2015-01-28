@@ -1,0 +1,44 @@
+html {
+	background: grey;
+}
+
+html a {
+	text-decoration: none;
+	color: white;
+}
+
+html a:visited {
+	text-decoration: none;
+}
+
+.logo {
+	margin-top: 5%;
+	width: 10em;
+	height: 10em;
+	border-radius: 200px;
+}
+
+aside {
+	color: white;
+	float:left;
+	background: black;
+	display: block;
+	height: 100%;
+	width:30%;
+	margin:0;
+	text-align: center;
+}
+
+.menu {
+	list-style: none;
+	padding-top: 20%;
+}
+
+footer {
+	padding-top: 50%;
+}
+
+article {
+	width: 80%;
+	display: block;
+}
