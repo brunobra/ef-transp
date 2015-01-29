@@ -1,44 +1,139 @@
+/********************************
+			GENERAL
+*********************************/
+
+a {
+	text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 html {
 	background: grey;
 }
 
-html a {
-	text-decoration: none;
-	color: white;
+
+/********************************
+			HEADER
+*********************************/
+
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  float: left;
+  padding: 5px 0 0 0;
+  width: 100%;
+  background: black;
 }
 
-html a:visited {
-	text-decoration: none;
+header .title {
+  text-align: center;
 }
 
 .logo {
-	margin-top: 5%;
-	width: 10em;
-	height: 10em;
-	border-radius: 200px;
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 150px;
+	margin: 10px 0 10px 30px;
 }
 
-aside {
-	color: white;
-	float:left;
-	background: black;
+.title {
+	float: left;
 	display: block;
-	height: 100%;
-	width:30%;
-	margin:0;
+	color: white;
 	text-align: center;
+	margin-left: 5em;
 }
+
+.title h1 {
+	font-weight: 400;
+}
+
+.title h2 {
+	font-weight: 100;
+	font-size: .9em;
+}
+
+/********************************
+			MENU
+*********************************/
 
 .menu {
 	list-style: none;
-	padding-top: 20%;
+	color: white;
+	display: block;
+	float: right;
+	margin: 2em 5em 0 0 ;
 }
 
-footer {
-	padding-top: 50%;
+.menu li{
+	display: inline-block;
+	padding: 1em;
 }
 
-article {
-	width: 80%;
+.menu a {
+	font-weight: 800;
+	color: white;
+}
+
+/********************************
+			CONTENT
+*********************************/
+
+.container {
+	max-width: 940px;
+	margin: 200px auto;
+	clear: both;
 	display: block;
 }
+
+
+
+/********************************
+			FOOTER
+*********************************/
+
+footer { 
+	padding: 5px ;
+	width: 100%;
+	background: black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+footer p {
+	display: block;
+	float: left;
+	margin-left: 30px;
+}
+
+.social {
+	list-style: none;
+	color: white;
+	display: block;
+	float: right;
+	margin: 0 5em 0 0 ;
+}
+
+.social li{
+	display: inline-block;
+	padding: 1em;
+}
+
+.social a {
+	font-weight: 800;
+	color: white;
+}
+
+
