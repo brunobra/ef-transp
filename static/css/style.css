@@ -25,7 +25,7 @@ header {
   left: 0;
   top: 0;
   float: left;
-  padding: 5px 0 0 0;
+  padding-top: 5px;
   width: 100%;
   background: black;
 }
@@ -47,7 +47,7 @@ header .title {
 	display: block;
 	color: white;
 	text-align: center;
-	margin-left: 5em;
+	margin-left: 16em;
 }
 
 .title h1 {
@@ -99,7 +99,7 @@ header .title {
 *********************************/
 
 footer { 
-	padding: 5px ;
+	/*padding: 5px ;*/
 	width: 100%;
 	background: black;
 	position: fixed;
@@ -128,7 +128,7 @@ footer p {
 
 .social li{
 	display: inline-block;
-	padding: 1em;
+	padding: 1em 0.8em 1em 1em;
 }
 
 .social a {
@@ -136,4 +136,71 @@ footer p {
 	color: white;
 }
 
+
+
+/********************************
+			MOBILE
+*********************************/
+
+@media	(max-width: 900px){
+	.title {
+		margin-top: 1em;
+		margin-left: 4em;
+	}
+
+	.title h1 {
+		font-size: 1.5em;
+		padding: 0;
+	}
+}
+
+@media (max-width: 600px) {
+  .logo {
+  	width: 70px;
+  	height: 70px;
+  	position: none;
+  	float: left;
+    margin: 1em 1em 0 7em;
+  }
+
+  .title {
+  	float: left;
+  	text-align: center;
+  	margin-left: 0;
+  }
+
+  .title h1 {
+	font-weight: 300;
+	font-size: 1.4em;
+  }
+
+  .title h2 {
+	font-weight: 100;
+	font-size: .8em;
+  }
+  .menu {
+ 	float: left;
+ 	margin: 0 8em;
+  }
+
+  .container {
+  	float: left;
+  	margin-top: 9em;
+  }
+
+ /* footer {
+ 	display: block;
+ 	text-align: center;
+  }*/
+
+  footer p {
+	margin: 1em 9em;
+	float: left;
+  }
+
+  .social {
+	float: left;
+ 	margin: 0 7em;
+  }
+}
 
