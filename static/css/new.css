@@ -53,10 +53,14 @@ body {
 *****************************/
 
 .container {
-	float: left;
+	/*float: left;*/
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
+}
+
+.content {
+	float: left;
 }
 
 /****************************
