@@ -1,0 +1,118 @@
+/****************************
+			COLORS
+*****************************/
+
+header {
+	background: #444;
+	border-color: darkgrey;
+}
+
+nav {
+	background: darkgrey;
+}
+
+a {
+	color: white;
+}
+
+nav a, nav a:visited {
+	color: white;
+}
+
+nav a.selected, nav a:hover {
+	color: grey;
+}
+
+body {
+	background-color: grey;
+}
+
+.logo img {
+	border-color: white;
+}
+
+footer {
+	/*background-color: black;*/
+}
+
+
+/****************************
+			GENERAL
+*****************************/
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Lucida Console", Monaco, monospace, sans-serif;
+}
+
+/****************************
+			BODY
+*****************************/
+
+.container {
+	float: left;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+/****************************
+			HEADER
+*****************************/
+
+header {
+	float: left;
+	width: 100%;
+}
+
+.logo img {
+	width: 150px;
+	height: 130px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/****************************
+			NAVIGATION
+*****************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+}
+
+nav ul {
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+/****************************
+			FOOTER
+*****************************/
+
+footer {
+	clear: both;
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.contact-icon {
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+}
+
