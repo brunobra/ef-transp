@@ -9,6 +9,12 @@
 	/****************************
 				HEADER
 	*****************************/
+
+	header {
+		border-bottom-style: solid;
+		border-bottom-width: 15px;
+	}
+
 	.logo {
 		float: left;
 		margin-left: 5%;
