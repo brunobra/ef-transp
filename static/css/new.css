@@ -68,15 +68,16 @@ body {
 *****************************/
 
 header {
-	float: left;
 	width: 100%;
 }
 
-.logo img {
-	width: 150px;
-	height: 130px;
+.logo a {
 	display: block;
-	margin: 0 auto;
+	text-align: center;
+}
+
+.logo img {
+	height: 130px;
 }
 
 
@@ -102,6 +103,21 @@ nav a {
 	font-weight: 800;
 	padding: 15px 10px;
 }
+
+/****************************
+			GALLERY
+*****************************/
+
+.main-gallery {
+	margin-bottom: 20px;
+}
+
+
+.main-gallery img {
+	width: 400px;
+	height: 280px;
+}
+
 
 /****************************
 			FOOTER
