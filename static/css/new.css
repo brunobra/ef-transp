@@ -118,6 +118,31 @@ nav a {
 	height: 220px;
 }
 
+/****************************
+			CONTENT
+*****************************/
+
+.content-header {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.content-header h1 {
+	color: #007A99;
+	text-shadow: 1px 0 white, -1px 0 white, 0 1px white, 0 -1px white;
+	margin: 0;
+}
+
+.content-1 {
+	/*background: #484848 ;*/
+	padding: 0;
+}
+
+.content-2 {
+	/*background: #A0A0A0 ;*/
+}
+
 
 /****************************
 			FOOTER
@@ -125,13 +150,13 @@ nav a {
 
 footer {
 	clear: both;
-	font-size: 0.75em;
+	font-size: 0.9em;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 .contact-icon {
-	width: 40px;
-	height: 40px;
-	margin: 0 10px;
+	width: 60px;
+	height: 60px;
+	margin: 0 20px;
 }
