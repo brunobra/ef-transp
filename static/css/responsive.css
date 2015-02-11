@@ -57,11 +57,11 @@
 			   CONTENT
 	*****************************/
 
-	.content-header {
+	.content-contact {
 		margin-bottom: 20px;
 	}
 
-	.content-header a {
+	.content-contact .phone {
 		display: block;
 		float: left;
 		width: 50%;
@@ -81,6 +81,30 @@
 		margin: 0 1%;
 	}
 
+	.content-3 {
+		margin: 0 1%;
+	}
+
+	.social {
+		width: 100%;
+		height: 120px;
+		margin-top: 20px;
+		display: inline-block;
+	}
+
+	.facebook {
+		display: block;
+		float: left;
+		width: 50%;
+		margin-top: 30px;
+	}
+
+	.mail {
+		display: block;
+		float: left;
+		width: 50%;
+	}
+
 	/****************************
 			   CLEAR FIX
 	*****************************/
@@ -91,5 +115,12 @@
 		clear: both;
 	}
 
+	/****************************
+			   JS
+	*****************************/
+
+	.test_window {
+		float: none;
+	}
 
 }

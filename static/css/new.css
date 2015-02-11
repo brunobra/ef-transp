@@ -53,8 +53,7 @@ body {
 *****************************/
 
 .container {
-	/*float: left;*/
-	max-width: 940px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 5%;
 }
@@ -122,13 +121,13 @@ nav a {
 			CONTENT
 *****************************/
 
-.content-header {
+.content-contact {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	text-align: center;
 }
 
-.content-header h1 {
+.content-contact h1 {
 	color: #007A99;
 	text-shadow: 1px 0 white, -1px 0 white, 0 1px white, 0 -1px white;
 	margin: 0;
@@ -143,6 +142,21 @@ nav a {
 	/*background: #A0A0A0 ;*/
 }
 
+.social {
+	margin-top: 50px;
+	display: block;
+}
+
+.mail img {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100px;
+	height: 100px;
+}
+
+.mail p {
+	margin-top: -20px
+}
 
 /****************************
 			FOOTER
@@ -152,11 +166,22 @@ footer {
 	clear: both;
 	font-size: 0.9em;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #444;
 }
 
 .contact-icon {
 	width: 60px;
 	height: 60px;
 	margin: 0 20px;
+}
+
+
+/****************************
+			JS
+*****************************/
+
+.test_window {
+	float: left;
 }
